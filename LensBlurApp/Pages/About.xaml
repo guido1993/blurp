@@ -1,0 +1,34 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="LensBlurApp.Pages.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:adduplex="clr-namespace:AdDuplex;assembly=AdDuplex.WindowsPhone"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="../Assets/BackgroundAbout.png"/>
+        </Grid.Background>
+        <adduplex:AdControl Name="AdDuplexAd" AppId="107191" Margin="0,-700,0,0"/>
+        <TextBlock Text="Version: 1.0.5.0" Margin="10,679,300,84" FontSize="25"/>
+        <TextBlock Text="Author: Magrin Guido" Margin="10,721,218,46" FontSize="25"/>
+        <TextBlock Text="Email: guido1993@gmail.com" Margin="10,754,138,10" FontSize="25"/>
+
+        <Border Name="InstructionsBorder" Background="#4C000000" Margin="28,425,23,141">
+            <Grid Margin="32,0,0,0">
+                <TextBlock Text="Short guide:" Margin="83,10,-83,-10" FontSize="35"/>
+                <TextBlock Text="Simble blurrer for Windows Phone 8. Draw background lines to define where to blur out the image. Draw foreground lines to choose where to preserve it, instead." TextWrapping="Wrap" TextAlignment="Center" FontSize="25" VerticalAlignment="Center" Height="173" Margin="-30,51,0,10"/>
+            </Grid>
+        </Border>
+    </Grid>
+
+</phone:PhoneApplicationPage>

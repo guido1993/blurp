@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Application_Title" xml:space="preserve">
+    <value>LENS BLUR</value>
+  </data>
+  <data name="EffectPage_CircleLabel" xml:space="preserve">
+    <value>circle</value>
+  </data>
+  <data name="EffectPage_FlowerLabel" xml:space="preserve">
+    <value>flower</value>
+  </data>
+  <data name="EffectPage_HeartLabel" xml:space="preserve">
+    <value>heart</value>
+  </data>
+  <data name="EffectPage_HexagonLabel" xml:space="preserve">
+    <value>hexagon</value>
+  </data>
+  <data name="EffectPage_MaximumLabel" xml:space="preserve">
+    <value>max</value>
+  </data>
+  <data name="EffectPage_MinimumLabel" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="EffectPage_SaveButton" xml:space="preserve">
+    <value>save</value>
+  </data>
+  <data name="EffectPage_SizeLabel" xml:space="preserve">
+    <value>size</value>
+  </data>
+  <data name="EffectPage_StarLabel" xml:space="preserve">
+    <value>star</value>
+  </data>
+  <data name="EffectPage_Title" xml:space="preserve">
+    <value>pick blur shape</value>
+  </data>
+  <data name="SegmenterPage_AcceptButton" xml:space="preserve">
+    <value>accept</value>
+  </data>
+  <data name="SegmenterPage_BackgroundButton" xml:space="preserve">
+    <value>background</value>
+  </data>
+  <data name="SegmenterPage_ForegroundButton" xml:space="preserve">
+    <value>foreground</value>
+  </data>
+  <data name="SegmenterPage_OpenButton" xml:space="preserve">
+    <value>open</value>
+  </data>
+  <data name="SegmenterPage_ResetButton" xml:space="preserve">
+    <value>reset</value>
+  </data>
+  <data name="SegmenterPage_Title" xml:space="preserve">
+    <value>mark areas</value>
+  </data>
+  <data name="SegmenterPage_UndoButton" xml:space="preserve">
+    <value>undo</value>
+  </data>
+  <data name="AboutPage_AboutText" xml:space="preserve">
+    <value>Lens Blur is a developer example application on how to use Nokia Imaging SDK interactive foreground segmenter and the lens blur effect to blur only selected areas of images.</value>
+  </data>
+  <data name="AboutPage_Title" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="AboutPage_VersionText" xml:space="preserve">
+    <value>Lens Blur version {0}</value>
+  </data>
+  <data name="Application_AboutMenuItem" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="Application_HelpMenuItem" xml:space="preserve">
+    <value>help</value>
+  </data>
+  <data name="HelpPage_EffectGuideText" xml:space="preserve">
+    <value>When you're ready with marking the areas, click on the accept button to navigate to the blur shape selection. In this second step, try out different lens blur effect kernel shapes and sizes by tapping on the shape selection icons and by adjusting the size slider. The preview is again automatically updated to reflect your shape and size selections.</value>
+  </data>
+  <data name="HelpPage_SaveGuideText" xml:space="preserve">
+    <value>When you're happy with the result, you can save it to the Saved Photos album in the Photos gallery.</value>
+  </data>
+  <data name="HelpPage_SegmenterGuideText" xml:space="preserve">
+    <value>First step is to mark the image foreground and background areas by drawing annotations on the image using two different colors. Notice that it is not necessary to paint the whole areas, but only to give hints to the interactive foreground segmenter. Based on your annotations, the preview is automatically updated to show the generated foreground/background segmentation.</value>
+  </data>
+  <data name="HelpPage_Title" xml:space="preserve">
+    <value>help</value>
+  </data>
+  <data name="HelpPage_OpenGuideText" xml:space="preserve">
+    <value>This application allows you to create bokeh style lens blur effect on images. This means that you can keep certain areas of an image sharp (in focus) while applying a blur effect on rest of the image (out of focus). To get started with this, you must first open an image from the Photos gallery by tapping on the open icon in the application bar in this application.</value>
+  </data>
+  <data name="SegmenterPage_GuideText" xml:space="preserve">
+    <value>To begin, open an image from the Photos gallery by tapping on the open icon in the application bar.
+
+For detailed guide on how to use this application, select "help" from the application menu.</value>
+  </data>
+  <data name="AboutPage_DisclaimerText" xml:space="preserve">
+    <value>This Nokia developer example application has been created to provide tips and best practice guidance for software developers and app designers, and may not have all the features you would expect in a commercial product. This application is published in Store as a free software as it may also have value to regular Nokia phone users. The source code and documentation of this example can be downloaded from Nokia Developer website.</value>
+  </data>
+  <data name="AboutPage_Hyperlink_Project_Text" xml:space="preserve">
+    <value>Nokia Developer website</value>
+  </data>
+  <data name="AboutPage_Hyperlink_Project_Url" xml:space="preserve">
+    <value>http://developer.nokia.com</value>
+  </data>
+  <data name="AboutPage_ProjectRun_Text" xml:space="preserve">
+    <value>{0}</value>
+    <comment>{0} is a link to the Nokia Developer website</comment>
+  </data>
+</root>
